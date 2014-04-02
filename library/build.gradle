@@ -33,7 +33,7 @@ android {
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
         }
-        instrumentTest.setRoot('library_test')
+        androidTest.setRoot('library_test')
     }
 }
 tasks.withType(Compile) {
